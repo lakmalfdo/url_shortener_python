@@ -26,7 +26,7 @@ The URL Shortener features a user-friendly command-line interface that simplifie
 2. Ensure that Python is installed on your computer.
 
 3. Open your terminal and navigate to the project directory:
-<pre>cd url_shortener</pre>
+<pre>cd url_shortener_python</pre>
 
 4. Run the URL Shortener by executing the script:
 
