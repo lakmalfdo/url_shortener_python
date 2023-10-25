@@ -48,7 +48,7 @@ def display_usage():
     print("Usage: python url_shortener.py -[s/e] <URL>")
     print("Use -s to shorten a URL or -e to expand a URL.")
 
-if __name__ == "__main__":
+def main():
     if len(sys.argv) != 3:
         display_usage()
         sys.exit(1)
@@ -74,3 +74,6 @@ if __name__ == "__main__":
             print("Error: The provided short URL does not exist in the database.")
     else:
         display_usage()
+
+if __name__ == '__main__':
+    main()
